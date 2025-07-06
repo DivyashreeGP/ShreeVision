@@ -2,7 +2,7 @@ import React from 'react';
 import '../styles/main.css';
 import { Element } from 'react-scroll';
 import { motion } from 'framer-motion';
-
+import profile from '../assets/images/profile-horizontal.png';
 const Home = () => {
   return (
     <section className="home-container flex flex-col md:flex-row justify-center items-center gap-10 p-6 bg-gradient-to-r from-white to-blue-50 min-h-screen">
@@ -17,7 +17,7 @@ const Home = () => {
           whileHover={{ scale: 1.05 }}
         >
           <img
-            src={`${import.meta.env.BASE_URL}profile-horizontal.png`}
+            src={profile}
             alt="Divyashree"
             className="landscape-img max-w-full rounded-xl shadow-lg"
           />
