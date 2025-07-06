@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <title>Redirecting…</title>
-    <script type="text/javascript">
-      window.location.href = "/ShreeVision/" + window.location.pathname;
+    <script>
+      const currentPath = window.location.pathname.replace('/ShreeVision', '');
+      window.location.replace('/ShreeVision/' + currentPath + window.location.search + window.location.hash);
     </script>
   </head>
   <body>
