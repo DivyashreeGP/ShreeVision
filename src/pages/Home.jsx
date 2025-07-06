@@ -17,7 +17,7 @@ const Home = () => {
           whileHover={{ scale: 1.05 }}
         >
           <img
-            src="/profile-horizontal.png"
+            src={`${import.meta.env.BASE_URL}profile-horizontal.png`}
             alt="Divyashree"
             className="landscape-img max-w-full rounded-xl shadow-lg"
           />
